@@ -30,3 +30,6 @@ alias l='lsd -al'
 alias ll='lsd -l'
 alias vi='nvim'
 alias vim='nvim'
+
+# Update PATH
+export PATH="${HOME}/go/bin${PATH+:$PATH}";
