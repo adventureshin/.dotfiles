@@ -1,0 +1,7 @@
+[user]
+	email = sdhkygg@gmail.com
+	name = Youngjae Shin (신영재)
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
