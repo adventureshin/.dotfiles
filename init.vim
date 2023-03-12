@@ -340,6 +340,9 @@ try
     autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
   augroup END
 
+  " vim-airline
+  let g:airline_powerline_fonts = 1
+
   " vim-indent-guides
   nmap <leader>i <Plug>IndentGuidesToggle
   let g:indent_guides_enable_on_vim_startup = 1
