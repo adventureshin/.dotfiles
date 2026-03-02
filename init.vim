@@ -25,6 +25,7 @@ set nowrap
 set updatetime=500
 set termguicolors
 set mouse=
+set clipboard+=unnamedplus
 
 " History
 if has('persistent_undo')

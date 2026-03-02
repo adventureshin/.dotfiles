@@ -1,6 +1,7 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
+
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -14,6 +15,7 @@ zinit light romkatv/powerlevel10k
 zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
 zinit light simnalamburt/cgitc
+ZSH_EXPAND_ALL_DISABLE=word
 zinit light simnalamburt/zsh-expand-all
 autoload -Uz compinit
 compinit
@@ -32,4 +34,28 @@ alias vi='nvim'
 alias vim='nvim'
 
 # Update PATH
-export PATH="${HOME}/go/bin${PATH+:$PATH}";
+export PATH="\
+${HOME}/.cargo/bin:\
+/opt/homebrew/bin:\
+/opt/homebrew/opt/ruby/bin:\
+/opt/homebrew/lib/ruby/gems/3.2.0/bin:\
+${HOME}/go/bin:\
+${PATH}"
+
+# mysql path
+export DYLD_LIBRARY_PATH=/opt/homebrew/opt/mysql@8.0/lib:$DYLD_LIBRARY_PATH
+
+export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+export PATH=$HOME/.gem/bin:$PATH
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# Android
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
+export REACT_EDITOR=webstorm
+
+. "$HOME/.cargo/env"
