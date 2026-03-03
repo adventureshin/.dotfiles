@@ -4,6 +4,7 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 ### `brew`
 - zinit rustup lsd neovim
 - node pnpm
+- go
 
 
 Casks:
@@ -21,3 +22,7 @@ Casks:
 ### App Store
 - numbers
 - kakao talk
+
+
+### git
+- https://github.com/LazyVim/LazyVim
