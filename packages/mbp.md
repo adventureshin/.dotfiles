@@ -11,3 +11,13 @@ Casks:
 - ghostty google-chrome karabiner-elements
 - slack
 - claude-code claude
+- codex codex-app chatgpt
+- secretive orbstack virtualbuddy
+- yubico-authenticator
+- cyberduck
+- temurin
+- visual-studio-code@insiders
+
+### App Store
+- numbers
+- kakao talk
