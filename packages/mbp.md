@@ -5,6 +5,7 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - zinit rustup lsd neovim
 - node pnpm
 - go
+- fzf
 
 
 Casks:
