@@ -11,3 +11,12 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[commit]
+    gpgsign = true
+[gpg]
+    format = ssh
+[gpg "ssh"]
+    allowedSignersFile = ~/.dotfiles/.gitallowedsigners
+
+[include]
+	path = ~/.gitconfig.local
