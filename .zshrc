@@ -7,7 +7,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # zinit
-source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+# source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
+source /opt/homebrew/opt/zinit/zinit.zsh
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 zinit ice depth=1
