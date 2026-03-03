@@ -56,7 +56,13 @@ export NVM_DIR="$HOME/.nvm"
 
 # Android
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
-
 export REACT_EDITOR=webstorm
 
+# rustup
 . "$HOME/.cargo/env"
+
+# fzf
+source <(fzf --zsh)
+
+# secretive config
+export SSH_AUTH_SOCK=/Users/devshin/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
