@@ -18,10 +18,13 @@ Casks:
 - cyberduck
 - temurin
 - visual-studio-code@insiders
+- microsoft-excel
+- zed
 
 ### App Store
 - numbers
 - kakao talk
+- wireguard
 
 
 ### git
