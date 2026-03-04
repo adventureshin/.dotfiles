@@ -2,11 +2,12 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 =======
 
 ### `brew`
-- zinit rustup lsd neovim
+- zinit lsd neovim
+- rustup
 - node pnpm
 - go
 - fzf
-
+- jq
 
 Casks:
 
@@ -30,3 +31,7 @@ Casks:
 
 ### git
 - https://github.com/LazyVim/LazyVim
+
+
+### rustup
+- rust-

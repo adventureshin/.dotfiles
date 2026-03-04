@@ -16,6 +16,7 @@ vim.opt.mouse = ""
 vim.opt.matchpairs:append("<:>")
 vim.opt.listchars = { tab = "› ", trail = "-", extends = "»", precedes = "«", nbsp = "." }
 vim.opt.relativenumber = false
+vim.g.ai_cmp = false
 
 vim.api.nvim_create_autocmd("ColorScheme", {
   callback = function()
