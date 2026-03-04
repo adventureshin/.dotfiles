@@ -1,1 +1,19 @@
 font-family = Monaco Nerd Font
+font-family = Apple SD Gothic Neo
+font-size = 16
+cursor-style = block
+theme = Kitty Default
+unfocused-split-opacity = 0.9
+window-padding-x = 4
+window-padding-y = 4
+window-padding-color = extend
+window-padding-balance = true
+resize-overlay = never
+split-divider-color = #444444
+macos-icon = chalkboard
+macos-option-as-alt = true
+bell-features = no-system,no-audio,attention,title,border
+
+quit-after-last-window-closed = true
+keybind = super+m=new_split:down
+keybind = super+l=new_split:right
