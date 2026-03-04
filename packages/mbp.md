@@ -34,4 +34,4 @@ Casks:
 
 
 ### rustup
-- rust-
+- rust-analyzer
