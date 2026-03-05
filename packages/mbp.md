@@ -8,6 +8,8 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - go
 - fzf
 - jq
+- deno
+- age-plugin-se age-plugin-yubikey
 
 Casks:
 
