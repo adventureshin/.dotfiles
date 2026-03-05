@@ -22,6 +22,7 @@ Casks:
 - visual-studio-code@insiders
 - microsoft-excel
 - zed
+- rustrover
 
 ### App Store
 - numbers
