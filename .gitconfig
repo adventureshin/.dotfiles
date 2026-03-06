@@ -1,6 +1,7 @@
+# vim: noexpandtab sw=4
 [user]
 	email = sdhkygg@gmail.com
-	name = Youngjae Shin (신영재)
+	name = Youngjae Shin
 [init]
 	defaultBranch = main
 [core]
@@ -12,11 +13,15 @@
 	process = git-lfs filter-process
 	required = true
 [commit]
-    gpgsign = true
+	gpgsign = true
 [gpg]
-    format = ssh
+	format = ssh
 [gpg "ssh"]
-    allowedSignersFile = ~/.dotfiles/.gitallowedsigners
-
+	allowedSignersFile = ~/.dotfiles/.gitallowedsigners
+[alias]
+	d   = -c diff.external=difft diff
+	dca = -c diff.external=difft diff --cached
+	dl  = -c diff.external=difft log -p --ext-diff
+	ds  = -c diff.external=difft show --ext-diff
 [include]
 	path = ~/.gitconfig.local
