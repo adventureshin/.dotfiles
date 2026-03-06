@@ -14,12 +14,18 @@ vim.opt.formatoptions:remove("t")
 vim.opt.wrapscan = false
 vim.opt.mouse = ""
 vim.opt.matchpairs:append("<:>")
-vim.opt.listchars = { tab = "› ", trail = "-", extends = "»", precedes = "«", nbsp = "." }
+vim.opt.list = true
+vim.opt.listchars = { tab = "──", trail = "⋅", extends = "»", precedes = "«", nbsp = "." }
 vim.opt.relativenumber = false
 vim.g.ai_cmp = false
 
+local function apply_highlights()
+  vim.api.nvim_set_hl(0, "LineNr", { fg = "#6c7d8c" })
+  vim.api.nvim_set_hl(0, "Whitespace", { fg = "#ff0000" })
+end
+
+apply_highlights()
+
 vim.api.nvim_create_autocmd("ColorScheme", {
-  callback = function()
-    vim.api.nvim_set_hl(0, "LineNr", { fg = "#6c7d8c" })
-  end,
+  callback = apply_highlights,
 })
