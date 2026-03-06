@@ -1,6 +1,6 @@
 font-family = Monaco Nerd Font
 font-family = Apple SD Gothic Neo
-font-size = 16
+font-size = 10
 cursor-style = block
 theme = Kitty Default
 unfocused-split-opacity = 0.9
