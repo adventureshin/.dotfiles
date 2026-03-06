@@ -1,0 +1,26 @@
+# clang
+*.dSYM
+# npm
+npm-debug.log
+# yarn
+yarn-error.log
+# gdb
+.gdb_history
+# claude code
+.claude
+# Codex
+.codex
+
+#
+# OS X
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# idle
+.idea
+.vscode
+
