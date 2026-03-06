@@ -15,6 +15,12 @@ zinit ice depth=1
 zinit light romkatv/powerlevel10k
 zinit light zdharma/fast-syntax-highlighting
 zinit light zsh-users/zsh-completions
+# zsh-autosuggestions
+ZSH_AUTOSUGGEST_USE_ASYNC=1
+if is-at-least 5.3; then
+  zinit ice silent wait'1' atload'_zsh_autosuggest_start'
+fi
+zinit light zsh-users/zsh-autosuggestions
 zinit light simnalamburt/cgitc
 ZSH_EXPAND_ALL_DISABLE=word
 zinit light simnalamburt/zsh-expand-all
@@ -40,6 +46,7 @@ ${HOME}/.cargo/bin:\
 /opt/homebrew/bin:\
 /opt/homebrew/opt/ruby/bin:\
 /opt/homebrew/lib/ruby/gems/3.2.0/bin:\
+/opt/homebrew/opt/gnu-tar/libexec/gnubin:\
 ${HOME}/go/bin:\
 ${PATH}"
 
@@ -66,3 +73,19 @@ source <(fzf --zsh)
 
 # secretive config
 export SSH_AUTH_SOCK=/Users/devshin/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
+# age encryption & decryption
+if (( $+commands[age] )); then
+  function encrypt() {
+    age \
+      -r age1se1q2lxassa0fjqpqfhmpa5yh4ag2grtgaq9wh6c97kqdydzh0fehgpzmwpjzp \
+      -r age1yubikey1qvzwp205hyndf9u02mcv9kfzgfzukem6vledj255clq6pgut97wm2d3dt2l \
+      -r age1yubikey1qwsq6sjurjm902mgwenlzgmy399fvrtsmmqygue46dydhnhcvu7kvfqk250 \
+      "$@"
+  }
+  function decrypt() { age -d -i ~/.config/age/k "$@" }
+fi
+
+if [[ -f ~/.zshrc.local ]]; then
+  source ~/.zshrc.local
+fi
