@@ -9,7 +9,12 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - fzf
 - jq
 - deno
-- age-plugin-se age-plugin-yubikey
+- age age-plugin-se age-plugin-yubikey ykman
+- fd
+- gnu-tar, zstd
+- mkcert
+- bat difftastic
+- b3sum
 
 Casks:
 
@@ -38,3 +43,6 @@ Casks:
 
 ### rustup
 - rust-analyzer
+
+### Manually installed
+- Sindoh D420 driver
