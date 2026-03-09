@@ -2,7 +2,7 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 =======
 
 ### `brew`
-- zinit lsd neovim
+- zinit lsd neovim btop
 - rustup
 - node pnpm
 - go
@@ -10,10 +10,10 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - jq
 - deno
 - age age-plugin-se age-plugin-yubikey ykman
-- fd
+- fd ripgrep
 - gnu-tar, zstd
 - mkcert
-- bat difftastic
+- bat difftastic git-delta
 - b3sum
 
 Casks:
@@ -43,6 +43,9 @@ Casks:
 
 ### rustup
 - rust-analyzer
+
+### `cargo`
+- cargo-shear
 
 ### Manually installed
 - Sindoh D420 driver
