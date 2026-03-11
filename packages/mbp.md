@@ -15,6 +15,7 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - mkcert
 - bat difftastic git-delta
 - b3sum
+- filosottile/musl-cross/musl-cross
 
 Casks:
 
@@ -30,6 +31,7 @@ Casks:
 - microsoft-excel
 - zed
 - rustrover
+- logitech-options
 
 ### App Store
 - numbers
@@ -43,9 +45,13 @@ Casks:
 
 ### rustup
 - rust-analyzer
+- x86_64-unknown-linux-musl
 
 ### `cargo`
 - cargo-shear
 
 ### Manually installed
 - Sindoh D420 driver
+
+### curl
+- bun
