@@ -89,3 +89,10 @@ fi
 if [[ -f ~/.zshrc.local ]]; then
   source ~/.zshrc.local
 fi
+
+# bun completions
+[ -s "/Users/devshin/.bun/_bun" ] && source "/Users/devshin/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
