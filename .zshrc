@@ -78,7 +78,7 @@ export SSH_AUTH_SOCK=/Users/devshin/Library/Containers/com.maxgoedjen.Secretive.
 if (( $+commands[age] )); then
   function encrypt() {
     age \
-      -r age1se1q2lxassa0fjqpqfhmpa5yh4ag2grtgaq9wh6c97kqdydzh0fehgpzmwpjzp \
+      -r age1se1qwvyt34m3vt55rmcad3xh3yeqs20pspx6wytdmt7sd85t9au5ykf6dq2rfr \
       -r age1yubikey1qvzwp205hyndf9u02mcv9kfzgfzukem6vledj255clq6pgut97wm2d3dt2l \
       -r age1yubikey1qwsq6sjurjm902mgwenlzgmy399fvrtsmmqygue46dydhnhcvu7kvfqk250 \
       "$@"
