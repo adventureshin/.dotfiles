@@ -10,6 +10,9 @@ return {
                 enable = true,
               },
             },
+            check = {
+              command = "clippy",
+            },
             imports = {
               granularity = {
                 group = "module",
