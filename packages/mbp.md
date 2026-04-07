@@ -16,6 +16,13 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - bat difftastic git-delta
 - b3sum
 - filosottile/musl-cross/musl-cross
+- pkgconf
+- libxml2 libxmlsec1 (for xml & saml)
+- pribess/tap/usagekit
+- ollama
+- tailscale
+- ffmpeg
+- redis
 
 Casks:
 
@@ -32,6 +39,8 @@ Casks:
 - zed
 - rustrover
 - logitech-options
+- discord
+- bitwarden
 
 ### App Store
 - numbers
@@ -49,9 +58,11 @@ Casks:
 
 ### `cargo`
 - cargo-shear
+- mdbook@0.4.52 mdbook-mermaid@0.14.0
 
 ### Manually installed
 - Sindoh D420 driver
 
 ### curl
 - bun
+- fff-mcp
