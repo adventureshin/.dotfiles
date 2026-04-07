@@ -47,6 +47,7 @@ ${HOME}/.cargo/bin:\
 /opt/homebrew/opt/ruby/bin:\
 /opt/homebrew/lib/ruby/gems/3.2.0/bin:\
 /opt/homebrew/opt/gnu-tar/libexec/gnubin:\
+${HOME}/.local/bin:\
 ${HOME}/go/bin:\
 ${PATH}"
 
