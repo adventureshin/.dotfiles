@@ -23,12 +23,14 @@ MacBook Pro (14-inch, M1 Pro, Mar 2026)
 - tailscale
 - ffmpeg
 - redis
+- runpod/runpodctl/runpodctl
+- python@3.13
 
 Casks:
 
 - ghostty google-chrome karabiner-elements
 - slack
-- claude-code claude
+- claude-code@latest claude
 - codex codex-app chatgpt
 - secretive orbstack virtualbuddy
 - yubico-authenticator
@@ -46,6 +48,7 @@ Casks:
 - numbers
 - kakao talk
 - wireguard
+- line
 
 
 ### git
